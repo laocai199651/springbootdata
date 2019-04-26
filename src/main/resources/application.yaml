@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: cwk199651
+    url: jdbc:mysql://192.168.24.221:3306/test_demo
+    #driver-class-name: com.mysql.jdbc.Driver
+    initialization-mode: always
+    schema:
+      - classpath:dept.sql
